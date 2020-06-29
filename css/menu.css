@@ -1,0 +1,75 @@
+#main {
+  margin: 10%;
+}
+
+a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 0px 15px 0px grey;
+          box-shadow: 0px 0px 15px 0px grey;
+}
+
+.menu-part1, .menu-part2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  display: flex;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+.menu1, .menu2, .menu3, .menu4 {
+  height: 600px;
+  width: 400px;
+  text-align: center;
+}
+
+.menu1 {
+  background-color: #fcdfdb;
+  color: #3C1218;
+  font-family: 'kaushan_scriptregular';
+  font-size: 20px;
+}
+
+.menu1 p, .menu1 h1, .menu1 i {
+  margin: 0px;
+}
+
+.menu1 p, .menu1 i {
+  font-size: 50px;
+}
+
+.menu1 i ::before {
+  background: linear-gradient(100deg, #F04A5E 40%, #F78F6A 60%);
+  -webkit-text-fill-color: transparent;
+}
+
+.menu2 {
+  background-color: #fff5fe;
+}
+
+.menu3 {
+  background-color: #f9f9f9;
+}
+
+.menu4 {
+  background-color: #fdfffd;
+}
+/*# sourceMappingURL=menu.css.map */

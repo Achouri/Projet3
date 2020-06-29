@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,gBAAgB,EAAE,OAAO;EACzB,KAAK,EAAE,OAAO;EACd,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,WAAW;EAClB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,aAAa,EAAE,KAAK;CAKrB;;AAdH,AAUQ,SAVC,CAUD,CAAC,CAAA;EACG,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,SAAS;CACrB",
+    "sources": [
+        "section-prochain.scss"
+    ],
+    "names": [],
+    "file": "section-prochain.css"
+}

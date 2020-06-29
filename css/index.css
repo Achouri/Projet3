@@ -1,0 +1,184 @@
+#main {
+  margin: 10%;
+}
+
+a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 0px 15px 0px grey;
+          box-shadow: 0px 0px 15px 0px grey;
+}
+
+.menu-part1, .menu-part2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  display: flex;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+.menu1, .menu2, .menu3, .menu4 {
+  height: 600px;
+  width: 400px;
+  text-align: center;
+}
+
+.menu1 {
+  background-color: #fcdfdb;
+  color: #3C1218;
+  font-family: 'kaushan_scriptregular';
+  font-size: 20px;
+}
+
+.menu1 p, .menu1 h1, .menu1 i {
+  margin: 0px;
+}
+
+.menu1 p, .menu1 i {
+  font-size: 50px;
+}
+
+.menu1 i ::before {
+  background: linear-gradient(100deg, #F04A5E 40%, #F78F6A 60%);
+  -webkit-text-fill-color: transparent;
+}
+
+.menu2 {
+  background-color: #fff5fe;
+}
+
+.menu3 {
+  background-color: #f9f9f9;
+}
+
+.menu4 {
+  background-color: #fdfffd;
+}
+
+.prochain {
+  background-color: #579c87;
+  color: #fdcb46;
+  font-size: 40px;
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-bottom: 150px;
+}
+
+.prochain p {
+  margin: 0px;
+  padding: 10px 50px;
+}
+
+header {
+  background-color: #579c87;
+  color: #fdcb46;
+  width: 100%;
+  padding: 30px 0px;
+  border-bottom: 2px solid #a1c181;
+}
+
+header h1 {
+  font-family: 'excite_bold';
+  text-align: center;
+  font-weight: 700;
+  font-size: 70px;
+  letter-spacing: -4px;
+  margin: auto;
+}
+
+footer {
+  background-color: #579c87;
+  color: #fdcb46;
+  width: 100%;
+  border-top: 2px solid #a1c181;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  font-size: 30px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: fixed;
+  bottom: 0vh;
+  z-index: 5;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer p {
+  margin: 10px 0px;
+  padding: 0px 30px;
+}
+
+/*font header*/
+@font-face {
+  font-family: 'excite_bold';
+  src: url("../fonts/excib___-webfont.woff2") format("woff2"), url("../fonts/excib___-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*font titre menu 4*/
+@font-face {
+  font-family: 'kaushan_scriptregular';
+  src: url("../fonts/kaushanscript-regular-webfont.woff2") format("woff2"), url("../fonts/kaushanscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*font footer*/
+@font-face {
+  font-family: 'sinkin_sans400_regular';
+  src: url("../fonts/SinkinSans-400Regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* font texte menu 2*/
+@font-face {
+  font-family: 'nimbus_roman_no9_lregular';
+  src: url("../fonts/NimbusRomNo9L-Reg-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*font titre menu 3*/
+@font-face {
+  font-family: 'dancing_script_otregular';
+  src: url("../fonts/dancingscript-regular-webfont.woff2") format("woff2"), url("../fonts/dancingscript-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+}
+/*# sourceMappingURL=index.css.map */

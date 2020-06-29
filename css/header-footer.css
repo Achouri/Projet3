@@ -1,0 +1,46 @@
+header {
+  background-color: #579c87;
+  color: #fdcb46;
+  width: 100%;
+  padding: 30px 0px;
+  border-bottom: 2px solid #a1c181;
+}
+
+header h1 {
+  font-family: 'excite_bold';
+  text-align: center;
+  font-weight: 700;
+  font-size: 70px;
+  letter-spacing: -4px;
+  margin: auto;
+}
+
+footer {
+  background-color: #579c87;
+  color: #fdcb46;
+  width: 100%;
+  border-top: 2px solid #a1c181;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  font-size: 30px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: fixed;
+  bottom: 0vh;
+  z-index: 5;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer p {
+  margin: 10px 0px;
+  padding: 0px 30px;
+}
+/*# sourceMappingURL=header-footer.css.map */

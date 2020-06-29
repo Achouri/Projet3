@@ -1,0 +1,19 @@
+.prochain {
+  background-color: #579c87;
+  color: #fdcb46;
+  font-size: 40px;
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-bottom: 150px;
+}
+
+.prochain p {
+  margin: 0px;
+  padding: 10px 50px;
+}
+/*# sourceMappingURL=section-prochain.css.map */
