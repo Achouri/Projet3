@@ -1,7 +1,18 @@
 @import "menu";
-@import"section-prochain";
+@import"prochain";
 @import"header-footer";
 @import"fonts";
-body{
-    margin: 0px;
+@import"keyframes";
+@import"variables";
+
+body {
+    line-height: 1;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }

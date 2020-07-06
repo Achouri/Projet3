@@ -37,4 +37,15 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "SegoePrint";
+  src: url("//db.onlinewebfonts.com/t/3e7c392e6314d3043afade17def0975c.eot");
+  src: url("//db.onlinewebfonts.com/t/3e7c392e6314d3043afade17def0975c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/3e7c392e6314d3043afade17def0975c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/3e7c392e6314d3043afade17def0975c.woff") format("woff"), url("//db.onlinewebfonts.com/t/3e7c392e6314d3043afade17def0975c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/3e7c392e6314d3043afade17def0975c.svg#SegoePrint") format("svg");
+}
+
+@font-face {
+  font-family: 'Croissant One';
+  src: url("../fonts/CroissantOne-Regular.ttf") format("truetype");
+}
 /*# sourceMappingURL=fonts.css.map */

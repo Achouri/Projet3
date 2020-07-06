@@ -1,0 +1,120 @@
+@import"header-footer";
+@import"fonts";
+@import"keyframes";
+@import"variables";
+body{
+    margin: 0px;
+}
+.first-menu{
+    background-color: $menu3;
+    min-height: 100vh;
+    margin: 0px 10% 150px 10%;
+    font-family:'segoe print'; 
+    box-shadow: 0px 0px 15px 0px grey;
+    font-size: 22px;
+}
+.entré, .principal, .dessert {
+    
+    padding: 0px 5%;
+        span {
+            position: relative;
+            float: right;
+            font-weight: bold;
+            }
+}
+.prelude{
+    color: #353535;  
+}
+.orgue{
+    color: #353535;
+}
+.final{
+    color: #353535;
+}
+.entete{
+    text-align: center;
+    font-family: 'dancing_script_otregular';
+    font-size: 50px;
+    padding: 10%;
+        h2{
+            font-weight: normal;
+            margin: 0px;
+            background: linear-gradient(135deg, #0431DF 20%, #0887FD 80%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+        }
+}
+
+.anim{
+    text-align: center;
+        span{
+            font-weight: 700;
+            font-size: 30px;
+            position:relative;
+            display:inline-block;
+        }
+}
+.under1:after {
+    display: block;
+    content: '';
+    border-bottom: solid 5px #353535;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    transform-origin:100% 50%
+  }
+.under1:hover:after { 
+    transform: scaleX(1);
+    transform-origin:0 50%;
+  }
+  .under2:after {
+    display: block;
+    content: '';
+    border-bottom: solid 5px #353535;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    transform-origin:100% 50%
+  }
+  .under2:hover:after { 
+    transform: scaleX(1);
+    transform-origin:0 50%;
+  }
+  .under3:after {
+    display: block;
+    content: '';
+    border-bottom: solid 5px #353535;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    transform-origin:100% 50%
+  }
+  .under3:hover:after { 
+    transform: scaleX(1);
+    transform-origin:0 50%;
+  }
+.section{
+    padding:0px 5% 5% 5%;
+        .gauche , .droite{
+            padding-top: 20px;
+            width: 220px;
+            position: relative;
+        } 
+}
+.droite{
+    float: right;
+}
+.gauche {
+
+    float: left;
+} 
+.above{
+    text-align: center;
+    font-size: 30px;
+    font-family:'sinkin_sans400_regular';
+    letter-spacing: -2px;
+    font-weight: 900;
+}
+@media only screen and (max-device-width: 1078px) {
+    .gauche, .droite {
+      display: none;
+    }
+  }
