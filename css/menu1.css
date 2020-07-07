@@ -366,4 +366,10 @@ span:hover:after {
     display: none;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  h3 {
+    width: 420px;
+  }
+}
 /*# sourceMappingURL=menu1.css.map */

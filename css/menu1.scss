@@ -84,9 +84,13 @@ span:after { /*l'effet de soulignement*/
     letter-spacing: -2px;
     font-weight: 900;
 }
-
 @media only screen  and (max-device-width : 1037px) {
     .gauche , .droite{
         display: none;
         }
     }
+@media only screen and (max-width : 480px) {
+    h3{
+        width: 420px;
+        }
+}
