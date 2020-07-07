@@ -1,0 +1,19 @@
+@import"header-footer";
+@import"fonts";
+@import"keyframes";
+@import"variables";
+body{
+    margin: 0px;
+}
+span {
+    
+    background-color: #579c87;
+    color: #fdcb46;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  section{
+      padding: 20px;
+      margin-bottom: 20px;
+      font-size: 1.2em;
+  }
