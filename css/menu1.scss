@@ -13,6 +13,9 @@ body{
     font-family:'dancing_script_otregular'; 
     font-size: 30px;
     box-shadow: 0px 0px 15px 0px grey;
+        @media only screen and (max-width : 480px) {
+            width: 420px;
+        }
 }
 .manger span{
     position: relative;

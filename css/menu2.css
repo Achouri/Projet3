@@ -268,6 +268,12 @@ body {
           box-shadow: 0px 0px 15px 0px grey;
 }
 
+@media only screen and (max-width: 480px) {
+  .first-menu {
+    width: 420px;
+  }
+}
+
 .entré, .principal, .dessert {
   padding: 0px 5%;
 }
