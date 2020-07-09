@@ -63,7 +63,7 @@ footer {
   z-index: 5;
 }
 
-footer h6 {
+footer h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,7 +91,7 @@ footer h6 {
 }
 
 @media screen and (max-width: 700px) {
-  footer h6 {
+  footer h3 {
     display: block;
     margin-right: auto;
     margin-left: auto;
